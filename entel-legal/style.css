@@ -1,0 +1,74 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+.firstRow {
+    display: flex;
+    .col-1 {
+        padding: 20px;
+        width: 50%;
+
+        .entel_logo {
+            max-width: 40%;
+            max-height: 200px;
+        }
+    }
+
+    .col-2 {
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+
+        .decorative_logo {
+            max-width: 100%;
+        }
+    }
+}
+
+
+.text-title{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10%;
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.button-container{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    cursor: default;
+}
+
+.button-container a{
+    text-decoration: none;
+}
+
+.blue-button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px;
+    width: 60%;
+    height: 60px;
+    background-color:blue;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    font-family: 'Barlow', sans-serif;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) { 
+
+    .blue-button{
+        width: 90%;
+    }
+}
+
